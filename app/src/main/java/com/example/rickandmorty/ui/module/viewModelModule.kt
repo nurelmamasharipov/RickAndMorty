@@ -1,5 +1,6 @@
 package com.example.rickandmorty.ui.module
 
+import com.example.rickandmorty.ui.viewModule.CharacterDetailViewModel
 import com.example.rickandmorty.ui.viewModule.CharacterViewModule
 import com.example.rickandmorty.ui.viewModule.EpisodeViewModule
 import com.example.rickandmorty.ui.viewModule.LocationViewModule
@@ -10,4 +11,5 @@ val viewModelModule = module {
     viewModel { CharacterViewModule(get()) }
     viewModel { LocationViewModule(get()) }
     viewModel { EpisodeViewModule(get()) }
+    viewModel { CharacterDetailViewModel(get()) }
 }
