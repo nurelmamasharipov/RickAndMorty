@@ -72,7 +72,7 @@ fun LocationItem(location: Location) {
             Spacer(modifier = Modifier.height(8.dp))
 
             Text(
-                text = "type: ${location.type}",
+                text = "Type: ${location.type}",
                 style = androidx.compose.material3.MaterialTheme.typography.bodyMedium
             )
 
